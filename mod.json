@@ -1,0 +1,6 @@
+{
+  "name": "alipay",
+  "version": "0.0.1",
+  "apiDependencies": ["alipayform"]
+}
+
