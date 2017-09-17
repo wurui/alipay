@@ -1,3 +1,1 @@
-.oxmod-alipay{
-/* CSS */
- }
+.oxmod-alipay{text-align:center;color:#999}.oxmod-alipay .auto-wrapper{max-width:640px;margin:0 auto}.oxmod-alipay .error{color:#f10;text-align:center}.oxmod-alipay .orderwrap{background-color:#eee;box-shadow:0 0 0 2px rgba(200,200,200,.3)}.oxmod-alipay .orderwrap>h3{margin:0;padding:10px}.oxmod-alipay .order-info{width:100%}.oxmod-alipay .order-info td,.oxmod-alipay .order-info th{color:#555;padding:5px 10px;background-color:#eee;border:none;border-top:dashed .5px #fff}.oxmod-alipay .order-info th{text-align:left;font-weight:300}.oxmod-alipay .order-info td{text-align:right}.oxmod-alipay .price{color:#f60;font-size:1.2em;font-weight:400}.oxmod-alipay .price:before{content:'\00a5\20';font-family:sans-serif;font-size:.8em}.oxmod-alipay .alipay,.oxmod-alipay .wxpay{text-align:center}.oxmod-alipay .wxpay:before{content:'\e638';font-family:iconfont;color:#09bb07;font-size:60px}
