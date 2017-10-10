@@ -15,10 +15,7 @@
     </p>
     <data>
             <alipayform>
-        <service>
-            mobilephone
-        </service>
-        <partner>
+                    <partner>
             camera
         </partner>
         <_input_charset>
