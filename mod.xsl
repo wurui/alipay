@@ -19,7 +19,8 @@
                         <xsl:for-each select="data/alipayform/*">
                             <input type="hidden" name="{name(.)}" value="{.}"/>
                         </xsl:for-each>
-                        <button>提交</button>
+                        <!--
+                        <button>提交</button>-->
                     </form>
                     <script><![CDATA[
                                 if(/QQ/.test(navigator.userAgent)){
@@ -29,7 +30,7 @@
                                     paytip.innerHTML='请点击上方菜单选择用'+(isIOS?'Safari':'浏览器')+'打开完成付款<big style="display:inline-block;transform:rotate(-90deg)">&#8627;</big>&#160;&#160;&#160;&#160;'
                                     document.getElementById('bottomtip').innerHTML='付款完成后请回到本页面<br/><a href="https://m.shaomachetie.com/smct-order">查看订单</a>'
                                 }else{
-                                   // document.forms.payform.submit();
+                                    document.forms.payform.submit();
                                 }
                                 ]]>
                     </script>
